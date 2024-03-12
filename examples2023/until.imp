@@ -1,0 +1,9 @@
+PROGRAM IS
+    n, p
+IN
+    READ n;
+    REPEAT
+        n:= n-1;
+        WRITE n;
+    UNTIL n=0;
+END
